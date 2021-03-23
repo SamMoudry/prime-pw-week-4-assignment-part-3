@@ -8,3 +8,17 @@ function addItem ( item ) {
     return 'true';
   }
 }
+function listItems () {
+  for (let i = 0; i < basket.length; i++) {
+    return basket[i];
+  }
+}
+
+function empty () {
+  return basket = [];
+}
+
+console.log(`Basket is ${basket}`);
+console.log('Adding apples (expect true)', addItem('apples'));
+console.log(`Basket is now ${basket}`);
+console.log(listItems());
