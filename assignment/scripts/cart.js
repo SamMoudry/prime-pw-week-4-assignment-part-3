@@ -5,7 +5,7 @@ let basket = [];
 function addItem ( item ) {
   if (typeof item == "string") {
     basket.push(item);
-    return 'true';
+    return true;
   }
 }
 function listItems () {
