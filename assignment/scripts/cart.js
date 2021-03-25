@@ -23,4 +23,4 @@ console.log('Adding apples (expect true)', addItem('apples'));
 console.log(`Basket is now ${basket}`);
 addItem('starfruit');
 addItem('pineapple');
-console.log(listItems());
+listItems();
